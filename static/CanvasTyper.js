@@ -59,7 +59,7 @@ var canvasTyper = {};
         this.log("Sending request for words list file.");
         var request = new XMLHttpRequest();
         
-        request.open("GET", "http://my.blog.com/static/word-list.txt", false);
+        request.open("GET", "/static/word-list.txt", false);
         request.send(null);
         
         if (request.readyState == 4){
