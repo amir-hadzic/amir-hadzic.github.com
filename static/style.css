@@ -1,0 +1,250 @@
+/* <CSS RESET> from http://meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* </CSS RESET> */
+
+body {
+    font-family: 'Droid Sans';
+    font-size: 18px;
+    background-color: #f1f1f1;
+}
+
+b {
+    font-weight: bold;
+}
+
+ul {
+    list-style: disc;
+    font-size: 18px;
+    font-family: 'Droid Sans';
+    margin: 0 0 20px 30px;
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Droid Sans';
+    margin-bottom: 0.2em;
+}
+
+blockquote {
+    margin: 0 20px;
+}
+
+pre {
+    margin-bottom: 20px;
+}
+
+em {
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+#wrapper 
+{
+    width: 900px;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+
+#gap
+{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+
+#logo
+{
+    width: 550px;
+    height: 300px;
+    float: left;
+}
+
+.logo-image
+{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+#header
+{
+    width: 100%;
+    height: 266px;
+    background-image: url(header.png);
+    background-repeat: repeat-x;
+}
+
+#header h1
+{
+    font-family: 'Crushed';
+    font-size: 2.5em;
+    color: #363d52;
+    font-weight: bold;
+    margin: 25px 0 0 20px;
+}
+
+#header h2
+{
+    font-family: Verdana;
+    font-size: 1em;
+    color: #363d52;
+    margin: 0 0 0 30px;
+}
+
+hr.header
+{
+    border: 0;
+    width: 95%;
+    color: #121d2b;
+    background-color: #121d2b;
+    height: 5px;
+    margin-top: 10px;
+}
+
+#navigation-bar
+{
+    height: 266px;
+    float: right;
+    width: 310px;
+    text-align: center;
+    list-style: none;
+}
+
+#navigation-blog 
+{
+    float: left;
+}
+
+#navigation-projects 
+{
+    display:inline;
+}
+
+#navigation-hire 
+{
+    float: right;
+}
+
+#content
+{
+    padding: 20px;
+    clear: both;
+}
+
+.post-title
+{
+    margin-bottom: 0px;
+    color: #111b1c;
+}
+
+.post-date
+{
+    font-size: 1em;
+    color: #ccc;
+    margin: 10px 0 20px 20px;
+}
+
+.post
+{
+    margin-bottom: 40px;
+}
+
+a.comments {
+    font-size: 12px;
+    color: #363d52;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#up-button
+{
+    position: fixed;
+    right: 128px;
+    bottom: 20px;
+}
+
+#up-button:hover
+{
+    bottom: 30px;
+}
+
+#down-button
+{
+    position: fixed;
+    right: 68px;
+    bottom: 20px;       
+}
+
+#down-button:hover
+{
+    bottom: 30px;
+}
+
+#rss-button
+{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;   
+}
+
+#rss-button:hover
+{
+    bottom: 30px;
+}

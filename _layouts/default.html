@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<link href="/static/style.css" rel="stylesheet" type="text/css">
+<link href="/static/syntax.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crushed' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+<title>{{ page.title }}</title>
+</head>
+<body>
+
+<a name="top"></a>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <img src="/static/Logo.png" class="logo-image" />
+            <h1>RANDOMSHOUTING.COM</h1>
+            <h2>— a blog about programming and electronics</h2>
+        </div>
+        
+        <ul id="navigation-bar">
+            <li id="navigation-blog"><a href="/"><img src="/static/Blog.png" /></a></li>
+            <li id="navigation-projects"><a href="/projects.html"><img src="/static/Projects.png" /></a></li>
+            <li id="navigation-hire"><a href="/hireme.html"><img src="/static/HireMe.png" /></a></li>
+        </ul>       
+    </div>
+    
+    <div id="gap"></div>       
+    
+    <div id="content">
+        {{ content }}
+    </div>
+    
+    <div id="up-button">
+        <a href="#top"><img src="/static/up.png" /></a>
+    </div>
+    
+    <div id="down-button">
+        <a href="#bottom"><img src="/static/down.png" /></a>
+    </div>
+    
+    <div id="rss-button">
+        <a href="http://feeds.feedburner.com/randomshouting"><img src="/static/rss.png" /></a>
+    </div>
+</div>
+<a name="bottom"></a>
+</body>
+</html>

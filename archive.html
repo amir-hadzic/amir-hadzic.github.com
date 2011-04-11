@@ -1,0 +1,11 @@
+---
+layout: default
+title: Randomshouting | Amir Hadžić | Archive
+---
+
+{% for post in site.posts %}
+    <div class="post">
+        <h1 class="post-title">{{ post.title }}</h1>
+        <h2 class="post-date">— {{ post.date | date: "%m.%d.%Y" }}</h2>
+    </div>
+{% endfor %}
