@@ -79,6 +79,10 @@ em {
     font-style: italic;
 }
 
+strong {
+    font-weight: bold;   
+}
+
 p {
     margin-bottom: 20px;
     font-size: 18px;
@@ -247,4 +251,10 @@ a.comments {
 #rss-button:hover
 {
     bottom: 30px;
+}
+
+a.nostylelink
+{
+    color: inherit;
+    text-decoration: none;
 }
