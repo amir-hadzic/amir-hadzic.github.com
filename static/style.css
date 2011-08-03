@@ -46,7 +46,7 @@ table {
 
 body {
     font-family: 'Droid Sans';
-    font-size: 18px;
+    font-size: 16px;
     background-color: #f1f1f1;
 }
 
@@ -56,13 +56,13 @@ b {
 
 ul {
     list-style: disc;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Droid Sans';
     margin: 0 0 20px 30px;
 }
 
 li {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Droid Sans';
     margin-bottom: 0.2em;
 }
@@ -85,7 +85,7 @@ strong {
 
 p {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
 }
 
