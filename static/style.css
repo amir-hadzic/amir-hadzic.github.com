@@ -45,7 +45,7 @@ table {
 /* </CSS RESET> */
 
 body {
-    font-family: 'Droid Sans';
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 16px;
     background-color: #f1f1f1;
 }
@@ -57,13 +57,13 @@ b {
 ul {
     list-style: disc;
     font-size: 16px;
-    font-family: 'Droid Sans';
+    font-family: Verdana, Geneva, sans-serif;
     margin: 0 0 20px 30px;
 }
 
 li {
     font-size: 16px;
-    font-family: 'Droid Sans';
+    font-family: Verdana, Geneva, sans-serif;
     margin-bottom: 0.2em;
 }
 
