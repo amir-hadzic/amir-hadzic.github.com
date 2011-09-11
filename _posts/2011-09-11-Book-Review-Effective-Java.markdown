@@ -36,5 +36,3 @@ them in the general programming section) are not even tied to the Java programmi
 There are many more interesting items in the book covering topics from managing objects
 to generics over general programming, concurrency and serialization. To summarize, this
 book is a must read for anyone working with Java. You can get the book at [Amazon][ref-link].
-
-<center>![Effective Java, Second edition][cover]</center>
