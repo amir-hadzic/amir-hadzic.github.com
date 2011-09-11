@@ -8,8 +8,8 @@ title: Effective Java Second Edition
   [author_about]: http://en.wikipedia.org/wiki/Joshua_Bloch
   
 I haven't published a post in a while so I decided to start writing book reviews in hope to
-force myself to write more posts in the future. The first review will be for the Effective
-Java Second Edition book by [Joshua Bloch][author_about] since it's the last book that I read. 
+force myself to write more posts in the future. The first review will be for the [Effective
+Java Second Edition][ref-link] book by [Joshua Bloch][author_about] since it's the last book that I read. 
 In fact, I just finished it few minutes ago.
 
 Even though this book is not intended to be read from cover to cover it's still interesting
