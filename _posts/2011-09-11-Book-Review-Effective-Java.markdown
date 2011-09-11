@@ -25,13 +25,13 @@ Others agree with James and recommend the book. The book is structured in "items
 describes potential perfomance and/or security improvements. Some of the items (almost all of 
 them in the general programming section) are not even tied to the Java programming language such as:
 
-  * Item 13: Minimize the accessibility of classes and members
-  * Item 15: Minimize mutability
-  * Item 16: Favor composition over inheritance
-  * Item 57: Use exceptions only for exceptional conditions
-  * Item 65: Don't ignore exceptions
-  * Item 55: Optimize judiciously
-  * Item 56: Adhere to generally accepted naming conventions
+ * Item 13: Minimize the accessibility of classes and members
+ * Item 15: Minimize mutability
+ * Item 16: Favor composition over inheritance
+ * Item 57: Use exceptions only for exceptional conditions
+ * Item 65: Don't ignore exceptions
+ * Item 55: Optimize judiciously
+ * Item 56: Adhere to generally accepted naming conventions
 
 There are many more interesting items in the book covering topics from managing objects
 to generics over general programming, concurrency and serialization. To summarize, this
