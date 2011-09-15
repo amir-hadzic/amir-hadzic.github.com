@@ -16,7 +16,7 @@ difference was not big and I ultimately decided to go with Jing because Frio was
 not in stock.
 
 Putting it all together didn't go as easy as I planned it would. I'v spent more
-hours replacing the fan than I would feel comfortable to admit. Basically the
+hours replacing the fan than I feel comfortable to admit. Basically the
 problem was that one of the parts was not drilled properly during the production
 and after a lot of frustration I had to drill a bigger hole and use different
 screws to hold it in place. It would have been a better idea to replace the fan
