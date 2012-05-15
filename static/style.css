@@ -207,8 +207,7 @@ hr.header
 
 .post
 {
-    margin-bottom: 40px;
-    padding: 40px;
+    padding: 0px 40px 20px 40px;
 }
 
 a.comments {
