@@ -15,6 +15,8 @@ A simple google query or two and I found two candidates for my upgrade:
 difference was not big and I ultimately decided to go with Jing because Frio was
 not in stock.
 
+<!-- more start -->
+
 Putting it all together didn't go as easy as I planned it would. I'v spent more
 hours replacing the fan than I feel comfortable to admit. Basically the
 problem was that one of the parts was not drilled properly during the production
@@ -45,3 +47,5 @@ play games anyway. I'll stick with archlinux.
 The good news is that the [Jing][jing-link] fan is completely silent. The only
 audible sound coming from my PC is the top fan which is probably going to get
 replaced too.
+
+<!-- more end -->

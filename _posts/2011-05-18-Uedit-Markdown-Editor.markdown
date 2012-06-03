@@ -13,7 +13,9 @@ While working on the new, improved version of [Tutorijali.net][0] we have decide
 the WMD markdown editor. While using it we have discovered that it has many
 annoying bugs and isn't very easy to modify. Searching for a better markdown
 editor which is small and doesn't have external dependicies yielded no results.
-So I decided to write a small, easy to modify, markdown editor. 
+So I decided to write a small, easy to modify, markdown editor.
+
+<!-- more start -->
 
 The result is [Uedit][4], a markdown editor that **Just Works** in IE6+, Opera,
 Firefox, Chromium and Safari. Uedit supports automatic insertion of list items
@@ -34,3 +36,5 @@ pull request on github if you have a patch ready.
 
 [Goran Zdjelar][3] has helped with the design of uedit. He's responsible for the
 nice forms design. Thanks!
+
+<!-- more end -->

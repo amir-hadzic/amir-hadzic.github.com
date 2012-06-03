@@ -214,11 +214,10 @@ hr.header
     padding: 0px 40px 20px 40px;
 }
 
-a.comments {
-    font-size: 0.8em;
-    color: #363d52;
-    font-weight: bold;
+a.more{
+    font-size: 1.0em;
     text-decoration: none;
+    font-style: italic;
 }
 
 #up-button

@@ -12,6 +12,7 @@ force myself to write more posts in the future. The first review will be for the
 Java Second Edition][ref-link] book by [Joshua Bloch][author_about] since it's the last book that I read. 
 In fact, I just finished it few minutes ago.
 
+<!-- more start -->
 Even though this book is not intended to be read from cover to cover it's still interesting
 enough that you will probably end up doing just that. I started reading it as part of getting
 more familiar with Java since I started working full time at a company that uses it exclusively.
@@ -36,3 +37,5 @@ them in the general programming section) are not even tied to the Java programmi
 There are many more interesting items in the book covering topics from managing objects
 to generics over general programming, concurrency and serialization. To summarize, this
 book is a must read for anyone working with Java. You can get the book at [Amazon][ref-link].
+
+<!-- more end -->
