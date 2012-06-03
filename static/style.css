@@ -25,8 +25,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
 	background-image: url(pattern.png);
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: #333;
 }
 ol, ul {
 	list-style: none;
@@ -46,8 +48,6 @@ table {
 /* </CSS RESET> */
 
 body {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
     background-color: #f1f1f1;
 }
 
@@ -57,14 +57,10 @@ b {
 
 ul {
     list-style: disc;
-    font-size: 14px;
-    font-family: Verdana, Geneva, sans-serif;
     margin: 0 0 20px 30px;
 }
 
 li {
-    font-size: 14px;
-    font-family: Verdana, Geneva, sans-serif;
     margin-bottom: 0.2em;
 }
 
@@ -85,19 +81,28 @@ strong {
 }
 
 p {
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-bottom: 2em;
     text-align: justify;
+    line-height: 1.5em;
+}
+
+a {
+    color: #94b24d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: Georgia, Times, serif;
 }
 
 h1 {
     font-size: 2.5em;
-    margin-bottom: 25px;
+    margin-bottom: 2em;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 25px;
+    font-size: 1.8em;
+    margin-bottom: 1.0em;
 }
 
 #wrapper 
@@ -195,7 +200,6 @@ hr.header
 .post-title
 {
     margin-bottom: 0px;
-    color: #111b1c;
 }
 
 .post-date
@@ -211,7 +215,7 @@ hr.header
 }
 
 a.comments {
-    font-size: 12px;
+    font-size: 0.8em;
     color: #363d52;
     font-weight: bold;
     text-decoration: none;
