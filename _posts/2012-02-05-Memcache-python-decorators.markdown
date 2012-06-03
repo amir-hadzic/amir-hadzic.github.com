@@ -4,7 +4,9 @@ title: Memcache python decorators
 ---
 
 Using memcache on google app engine was always recommended but now it's a must. Since the GAE pricing changed it became a lot more important to keep the resources required to run your application as low as possible since you don't want to throw your money away. Using memcache is a simple way to increase the performance of your application while lowering the daily costs of running your application. One particular use case of caching expensive computations is when running queries against the datastore. It's always faster to get a value from memcache than it is from the datastore. I have used memcache on one of my GAE projects, [texd][0].
+
 <!-- more start -->
+
 Memcache usage can be simplified down to getting and removing values using a unique key. When I tried integrating memcache into texd it became obvious that I will need a simple way to cache results from methods and also invalidate cache entries before running some methods. For example, the result of an expensive query will be cached but that result might need to deleted from the cache when a part of the result is modified in the datastore. What follows is a code listing that can be found [here][1] in the texd project on github.
 
 
