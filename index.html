@@ -10,8 +10,7 @@ title: Randomshouting | Amir Hadžić | a blog about programming and electronics
         {{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
         
         <center>
-            <a class="more" href="{{ post.url }}">Read more and post comments</a>
-            <hr style="width: 40%" />
+            <a style="border-bottom: 1px dotted #222; padding: 5px;"class="more" href="{{ post.url }}">Read more and post comments</a>
         </center>
     </div>
 {% endfor %}
