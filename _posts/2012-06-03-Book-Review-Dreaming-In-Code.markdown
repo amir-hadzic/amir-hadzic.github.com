@@ -3,7 +3,7 @@ layout: post
 title:  Dreaming in Code
 ---
 
-[Dreaming In Code][ref_link] is a book written by [Scott Rosenberg][author] about a bold open source software project that aimed to change the way we organize personal information — Chandler. Chandler was started and funded by Mitch Kapor, Lotus 1-2-3 designer, former Chair of the Mozilla Foundation and co-founder of the Electronic Frontier Foundation. In this post I will try to give my humble review of this book and provide some interesting notes.
+[Dreaming In Code][ref_link] is a book written by [Scott Rosenberg][author] about a bold open source software project that aimed to change the way we organize personal information — Chandler. It was started and funded by Mitch Kapor, Lotus 1-2-3 designer, former Chair of the Mozilla Foundation and co-founder of the Electronic Frontier Foundation. In this post I will try to give my humble review of this book and provide some interesting notes.
 
 <!-- more start -->
 
@@ -11,7 +11,7 @@ Even though the book is about a software project it’s not very technical or ai
 
 The author itself is not involved in the development process in any way which gives him a particulary interesting view point of every situation. He joins the meetings to collect notes but also interviews the individuals working on the project. Sometimes the author winds up talking about some particular problem in software development which results in a healthy combination of both technical and non-technical content.
 
-Whether you're a software developer or manager the author will keep you interested. My only regret is that book ended too soon. I guess that Rosenberg initialy had the intentions on following the project through this whole life cycle but had his doubts when the original goals started to seem further and further away. The author then probably tried to save his book from having the same fate as Chandler itself.
+Whether you're a software developer or manager the author will keep you interested. My only regret is that the book ended too soon. I guess that Rosenberg initialy had the intentions on following the project through his whole life cycle but had his doubts when the original goals started to seem further and further away. The author then probably tried to save his book from having the same fate as Chandler itself.
 
 The book is very easy to follow and a great read in my opinion. You will also come across some interesting references that I recommend going through.
 
