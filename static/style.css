@@ -194,6 +194,7 @@ hr.header
 {
     padding: 20px;
     clear: both;
+    overflow: auto;
 }
 
 .post-title
@@ -257,6 +258,31 @@ a.more{
 
 a.nostylelink
 {
-    color: inherit;
     text-decoration: none;
+}
+
+#frontpage-sidebar {
+    width: 22%;
+    float: right;
+    height: 100%;
+    color: #777;
+    font-size: 0.9em;
+}
+
+#frontpage-sidebar img {
+    margin-bottom: 0.5em;
+}
+
+#frontpage-sidebar p {
+    text-align: left;
+}
+
+#frontpage-sidebar h3 {
+    font-size: 1.2em;
+}
+
+#frontpage-posts {
+    width: 75%;
+    float: left;
+    height: 100%;
 }
