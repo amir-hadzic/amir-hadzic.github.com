@@ -143,16 +143,16 @@ h2 {
 {
     font-family: 'Crushed';
     font-size: 2.5em;
-    color: #363d52;
+    color: black;
     font-weight: bold;
     margin: 25px 0 0 20px;
 }
 
 #header h2
 {
-    font-family: Verdana;
+    font-family: Georgia;
     font-size: 1em;
-    color: #363d52;
+    color: #333;
     margin: 0 0 0 30px;
 }
 
