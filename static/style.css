@@ -286,3 +286,18 @@ a.nostylelink
     float: left;
     height: 100%;
 }
+
+.two-columns {
+    width: 100%;
+    overflow: auto;
+}
+
+.two-columns-left {
+    width: 48%;
+    float: left;
+}
+
+.two-columns-right {
+    width: 48%;
+    float: right;
+}
