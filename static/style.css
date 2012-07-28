@@ -301,3 +301,17 @@ a.nostylelink
     width: 48%;
     float: right;
 }
+
+.hireme-sidebar {
+	width: 20%;
+	padding: 1em;
+	background-color: #eee;
+}
+
+div.hireme-sidebar, div.hireme-sidebar p {
+	text-align: left;
+}
+
+div.hireme-content, div.hireme-content p {
+	text-align: left;
+}
