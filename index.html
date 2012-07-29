@@ -29,7 +29,7 @@ title: Randomshouting | Amir Hadžić | a blog about programming and electronics
     <h3>Recent posts</h3>
     <ul>
         {% for post in site.posts limit:15 %}
-        <li><a class="nostylelink" href="#">{{ post.title }}</a></li>
+        <li><a class="nostylelink" href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
