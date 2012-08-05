@@ -5,7 +5,7 @@ title: Randomshouting | Amir Hadžić | Archive
 
 {% for post in site.posts %}
     <div>
-        <a href="{{ post.url }}" class="nostylelink"><h1 class="post-title">{% if post.bookreview %}<i class="icon-book"></i>{% endif %} {{ post.title }}</h1></a>
+        <a href="{{ post.url }}" class="nostylelink"><h1 class="post-title">{{ post.title }} {% if post.bookreview %}(<i class="icon-book"></i>){% endif %} </h1></a>
         <h2 class="post-date">— {{ post.date | date: "%m.%d.%Y" }}</h2>
     </div>
 {% endfor %}
