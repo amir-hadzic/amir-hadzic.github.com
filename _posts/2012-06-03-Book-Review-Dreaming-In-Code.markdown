@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Dreaming in Code
+bookreview: true
 ---
 
 [Dreaming In Code][ref_link] is a book written by [Scott Rosenberg][author] about a bold open source software project that aimed to change the way we organize personal information — Chandler. It was started and funded by Mitch Kapor, Lotus 1-2-3 designer, former Chair of the Mozilla Foundation and co-founder of the Electronic Frontier Foundation. In this post I will try to give my humble review of this book and provide some interesting notes.

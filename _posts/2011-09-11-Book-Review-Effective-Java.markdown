@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Effective Java Second Edition
+bookreview: true
 ---
 
   [ref-link]: http://www.amazon.com/gp/product/0321356683/ref=as_li_ss_tl?ie=UTF8&tag=randomshoutin-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0321356683

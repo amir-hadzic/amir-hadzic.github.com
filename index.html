@@ -5,9 +5,8 @@ title: Randomshouting | Amir Hadžić | a blog about programming and electronics
 <div id="frontpage-posts">
 {% for post in site.posts limit:5%}
     <div class="post">
-        <a class="nostylelink" href="{{ post.url }}"><h1 class="post-title">{{ post.title }}</h1></a>
+        <a class="nostylelink" href="{{ post.url }}"><h1 class="post-title">{% if post.bookreview %}<i class="icon-book"></i>{% endif %} {{ post.title }}</h1></a>
         <h2 class="post-date">— {{ post.date | date: "%m.%d.%Y" }}</h2>
-        
         {{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
         
         <center>
@@ -29,7 +28,7 @@ title: Randomshouting | Amir Hadžić | a blog about programming and electronics
     <h3>Recent posts</h3>
     <ul>
         {% for post in site.posts limit:15 %}
-        <li><a class="nostylelink" href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><a class="nostylelink" href="{{ post.url }}">{% if post.bookreview %}<i class="icon-book"></i>{% endif %} {{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
