@@ -317,3 +317,8 @@ div.hireme-sidebar, div.hireme-sidebar p {
 div.hireme-content, div.hireme-content p {
 	text-align: left;
 }
+
+.projects-headline {
+    background-color: #eee;
+    padding: 20px;
+}
