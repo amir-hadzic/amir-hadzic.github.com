@@ -60,8 +60,7 @@ your phone. For some reason, none of them worked for me, so I did it manually:
    “adb”. Type “cd Desktop/adb” into the cmd and then “adb.exe shell”.
  * Now type the following:
 
-{% highlight bash linenos %} su cp /efs/nv_data.bin /sdcard/nv_data.orig.bin {%
-endhighlight %}
+{% highlight bash linenos %} su cp /efs/nv_data.bin /sdcard/nv_data.orig.bin {% endhighlight %}
 
  * Disconnect your phone and connect it again in USB Mass Storage mode. Copy
    the nv_data.orig.bin file to your PC. **Warning:** Keep a backup copy of
@@ -73,10 +72,9 @@ endhighlight %}
  * Disconnect your phone and connect it again in USB Debugging mode. Run the
    adb shell as previously shown in steps above and run the following commands:
 
-{% highlight bash linenos %} su rm /efs/nv_data.bin rm /efs/nv_data.bin.md5 cp
-/sdcard/nv_data.mod.bin /efs/nv_data.bin chmod 755 /efs/nv_data.bin chown
-radio.radio /efs/nv_data.bin || chown 1001.1001 /efs/nv_data.bin reboot {%
-endhighlight %}
+{% highlight bash linenos %} 
+su rm /efs/nv_data.bin rm /efs/nv_data.bin.md5 cp /sdcard/nv_data.mod.bin /efs/nv_data.bin chmod 755 /efs/nv_data.bin chown radio.radio /efs/nv_data.bin || chown 1001.1001 /efs/nv_data.bin reboot 
+{%  endhighlight %}
 
 Your phone will reboot now and it will be rooted and unlocked.
 
