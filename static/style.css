@@ -122,8 +122,6 @@ h2 {
 
 #logo
 {
-    width: 550px;
-    height: 300px;
     float: left;
 }
 
@@ -136,9 +134,7 @@ h2 {
 #header
 {
     width: 100%;
-    height: 266px;
-    background-repeat: repeat-x;
-    border-bottom: 10px solid #94b24d;
+    height: 100px;
 }
 
 #header h1
@@ -170,26 +166,30 @@ hr.header
 
 #navigation-bar
 {
-    height: 266px;
     float: right;
-    width: 310px;
-    text-align: center;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#navigation-bar ul {
     list-style: none;
 }
 
-#navigation-blog 
-{
-    float: left;
+#navigation-bar li {
 }
 
-#navigation-projects 
-{
-    display:inline;
+#navigation-bar li a {
+    background-color: #94B24D;
+    color: white;
+    padding: 0 1.5em;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-#navigation-hire 
-{
-    float: right;
+#navigation-bar li a:hover {
+    background-color: #d3ff82;
 }
 
 #content
