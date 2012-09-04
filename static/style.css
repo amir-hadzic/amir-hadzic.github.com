@@ -125,6 +125,10 @@ h2 {
     float: left;
 }
 
+#logo a {
+    text-decoration: none;
+}
+
 .logo-image
 {
     margin-left: 90px;
