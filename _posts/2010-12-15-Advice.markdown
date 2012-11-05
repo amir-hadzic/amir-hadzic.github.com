@@ -56,6 +56,6 @@ limited by your brain in more ways than you think. Avoid "clever" solutions.
 Also, you will make mistakes and that's not a problem. Not learning from your
 mistakes is a problem.
 
-These advices are high-level and they are (mostly) the reason for more specific
-mistakes that bad programmers usually do. I might write some more detailed
-posts about best practices in various fields of software development.
+These advices are high-level and they are a good start if you want to become a
+competent programmer. I might try to write some more posts about specific
+mistakes that programmers make or about best practices in some field.
