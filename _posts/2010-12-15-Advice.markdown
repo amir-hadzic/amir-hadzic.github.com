@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advice
+title: Advice for young programmers
 ---
 
 I’m a self-thought programmer (although chasing a computer science degree) and
