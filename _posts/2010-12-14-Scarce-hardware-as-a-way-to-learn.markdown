@@ -42,7 +42,7 @@ love it.
 If I always had the latest hardware who knows if I would ever start
 programming. I would probably be too busy playing games. Games are what got me
 into programming as a kid. They were fun but I couldn't play the vast majority
-of them on my hardware. So I found something even more fun — programming. Now I
+of them on my hardware. So I found something even more fun—programming. Now I
 have the hardware I always dreamed of but that doesn't matter anymore. It's not
 the silver bullet I was looking for, it's just a tool now that will help me in
 my development process.
