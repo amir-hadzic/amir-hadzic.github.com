@@ -10,6 +10,8 @@ this weekend I will be a bit better at it than I used to be. Public speaking
 just like everything else takes practice but it's especially hard at the
 beginning.
 
+<!-- more start -->
+
 Startup Weekend was in town yesterday and initially I planned to spend the whole
 weekend working on an idea that I had for a while or on someone else's (more
 interesting) idea. To cut a long story short it turned out that I won't have a
@@ -82,3 +84,4 @@ number of votes) but as I already said there were more important things that I
 had to finish during the weekend.
 
 I'm actually looking forward to speak in public again.
+<!-- more end -->
