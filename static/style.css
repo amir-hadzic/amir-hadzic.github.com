@@ -63,7 +63,8 @@ li {
   margin-bottom: 0.2em; }
 
 blockquote {
-  margin: 0 20px; }
+  margin: 0 20px;
+  font-style: italic; }
 
 pre {
   margin-bottom: 20px;
