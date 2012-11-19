@@ -55,8 +55,7 @@ My pitch went something like this:
 > Shared workspaces are not something new. There are shared workspaces in most
 > developed countries and they are usually referred to as coworking spaces. Our
 > neighboring countries such as Croatia and Serbia have coworking spaces.
-
-> Coworking spaces usually rent out individual desks and have different pricing
+> These spaces usually rent out individual desks and have different pricing
 > options for different team sizes.
 
 > What I don't know is how big the market is and what exactly "affordable" means
