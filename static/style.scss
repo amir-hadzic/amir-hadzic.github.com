@@ -58,6 +58,7 @@ table {
 
 body {
     background-color: #f1f1f1;
+    font-size: 12px;
 }
 
 b {
@@ -224,6 +225,11 @@ hr.header
 .post
 {
     padding: 0px 40px 20px 40px;
+}
+
+.post-excerpt
+{
+    font-size: 1.1em;
 }
 
 a.more{
