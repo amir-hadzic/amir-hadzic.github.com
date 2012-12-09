@@ -82,7 +82,7 @@ blockquote {
 pre {
     margin-bottom: 20px;
     padding: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 em {
@@ -230,6 +230,11 @@ hr.header
 .post-excerpt
 {
     font-size: 1.1em;
+}
+
+.recent-post 
+{
+    font-size: 1.2em;
 }
 
 a.more{
