@@ -252,3 +252,11 @@ div.hireme-content, div.hireme-content p {
 .projects-headline {
   background-color: #eeeeee;
   padding: 20px; }
+
+.recommended-reading {
+  color: #4d4d4d;
+  padding: 1.5em;
+  text-align: center;
+  background-color: #eeeeee; }
+  .recommended-reading p {
+    margin: 0; }

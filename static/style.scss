@@ -334,3 +334,14 @@ div.hireme-content, div.hireme-content p {
     background-color: $rs_silver;
     padding: 20px; 
 }
+
+.recommended-reading {
+    color: lighten($rs_font, 10%);
+    padding: 1.5em;
+    text-align: center;
+    background-color: $rs_silver;
+
+    p {
+        margin: 0;
+    }
+}

@@ -46,3 +46,9 @@ of them on my hardware. So I found something even more fun—programming. Now I
 have the hardware I always dreamed of but that doesn't matter anymore. It's not
 the silver bullet I was looking for, it's just a tool now that will help me in
 my development process.
+
+
+<div class="recommended-reading">
+    <p>If you like this article, you might enjoy this one too:
+    <a href="{% post_url 2010-12-15-Advice %}">Advice for young programmers</a></p>
+</div>

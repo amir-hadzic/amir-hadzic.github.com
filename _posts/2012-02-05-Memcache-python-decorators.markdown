@@ -103,6 +103,10 @@ function arguments that can be used in the key name using python standard
 string formatting options. For more concrete examples take a look at [texd
 models][2].
 
+<div class="recommended-reading">
+    <p>If you like this article, you might enjoy this one too:
+    <a href="{% post_url 2011-02-06-Free-SMS-notifications-from-Google %}">Free SMS notifications from Google</a></p>
+</div>
 <!-- more end -->
 
  [0]: https://texd-app.appspot.com
