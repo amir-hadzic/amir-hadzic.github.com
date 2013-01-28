@@ -25,8 +25,8 @@ documentation.
 My second advice to you is to **read the documentation**. Don’t take this one
 lightly, it’s more important than it seems to be. The only way you can learn
 yourself to always check and read the documentation and to be able to read it
-well is to do it often. If you are just starting out you’re lucky. Just go and
-experiment with as many languages and libraries as you can. There are no
+well is to do it often. If you are just starting out you’re lucky. Just **go and
+experiment** with as many languages and libraries as you can. There are no
 deadlines to meet, you can roam the software development world as you wish. It
 will be harder for you to learn to do this later on.
 
