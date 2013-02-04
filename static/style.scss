@@ -5,6 +5,7 @@ $rs_green: #94B24D;
 $rs_dark_green: darken($rs_green, 10%);
 $rs_font: #333;
 $rs_silver: #eee;
+$rs_post_color: #111;
 
 /* <CSS RESET> from http://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
@@ -35,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	background-image: url(pattern.png);
     font-family: Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: $rs_font;
 }
 ol, ul {
@@ -225,11 +226,29 @@ hr.header
 .post
 {
     padding: 0px 40px 20px 40px;
+    
+    p {
+        font-size: small;
+        color: $rs_post_color;
+        margin: 0 2.5em 1.5em 2.5em;
+
+    }
+
+    ul {
+        li {
+            color: $rs_post_color;
+            font-size: small;
+            margin: 0 2.5em 1em 2.5em;
+        }
+    }
 }
 
 .post-excerpt
 {
-    font-size: 1.1em;
+    font-size: 1.1em; 
+    p {
+        margin: 0 0 2em 0;
+    }
 }
 
 .recent-post 
