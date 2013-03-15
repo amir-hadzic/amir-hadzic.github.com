@@ -97,7 +97,7 @@ h2 {
   font-size: 1.8em; }
 
 #wrapper {
-  width: 900px;
+  width: 600px;
   margin: 20px auto 0 auto;
   background-color: white; }
 
@@ -218,23 +218,16 @@ a.more {
 a.nostylelink {
   text-decoration: none; }
 
-#frontpage-sidebar {
-  width: 22%;
-  float: right;
-  height: 100%;
+#frontpage-author {
   color: #666666;
   font-size: 0.9em; }
-  #frontpage-sidebar img {
-    margin-bottom: 0.5em; }
-  #frontpage-sidebar p {
+  #frontpage-author img {
+    margin-bottom: 0.5em;
+    display: block-inline; }
+  #frontpage-author p {
     text-align: left; }
-  #frontpage-sidebar h3 {
+  #frontpage-author h3 {
     font-size: 1.2em; }
-
-#frontpage-posts {
-  width: 75%;
-  float: left;
-  height: 100%; }
 
 .two-columns {
   width: 100%;
