@@ -70,7 +70,8 @@ blockquote {
 pre {
   margin-bottom: 20px;
   padding: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: auto; }
 
 em {
   font-style: italic; }
@@ -97,7 +98,7 @@ h2 {
   font-size: 1.8em; }
 
 #wrapper {
-  width: 900px;
+  width: 600px;
   margin: 20px auto 0 auto;
   background-color: white; }
 
@@ -162,13 +163,20 @@ hr.header {
   clear: both;
   overflow: auto; }
 
-.post-title {
+.post-title, .post-archive-title {
   margin-bottom: 0px; }
 
-.post-date {
+.post-archive-title {
+  font-size: 1.5em;
+  display: inline; }
+
+.post-date, .post-archive-date {
   font-size: 1em;
   color: #737373;
   margin: 10px 0 20px 20px; }
+
+.post-archive-date {
+  margin: 0; }
 
 .post {
   padding: 0px 40px 20px 40px; }
@@ -194,6 +202,11 @@ a.more {
   text-decoration: none;
   font-style: italic; }
 
+.archive-link {
+  text-decoration: none;
+  margin-bottom: 0.75em;
+  display: block; }
+
 #up-button {
   position: fixed;
   right: 128px;
@@ -218,23 +231,13 @@ a.more {
 a.nostylelink {
   text-decoration: none; }
 
-#frontpage-sidebar {
-  width: 22%;
-  float: right;
-  height: 100%;
-  color: #666666;
-  font-size: 0.9em; }
-  #frontpage-sidebar img {
-    margin-bottom: 0.5em; }
-  #frontpage-sidebar p {
+#frontpage-author {
+  font-size: 0.9em;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0; }
+  #frontpage-author p {
     text-align: left; }
-  #frontpage-sidebar h3 {
-    font-size: 1.2em; }
-
-#frontpage-posts {
-  width: 75%;
-  float: left;
-  height: 100%; }
 
 .two-columns {
   width: 100%;

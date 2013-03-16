@@ -2,8 +2,13 @@
 layout: default
 title: Randomshouting | Amir Hadžić | a blog about programming and electronics
 ---
-<div id="frontpage-posts">
-{% for post in site.posts limit:5%}
+<div id="frontpage-author">
+    <p>Welcome!—I'm Amir Hadžić. A full time software developer by day and a freelancer by night.
+    Occasionally I try to improve my writing skills by posting on this blog.
+    Checkout my <a href="http://ba.linkedin.com/pub/amir-had%C5%BEi%C4%87/13/a7a/3a3">linkedin</a> and <a href="http://www.github.com/amir-hadzic">github</a> profile for more information.</p> 
+</div>
+
+{% for post in site.posts limit:10%}
     <div class="post post-frontpage">
         <a class="nostylelink" href="{{ post.url }}"><h1 class="post-title">{{ post.title }} {% if post.bookreview %}(<i class="icon-book"></i>){% endif %} </h1></a>
         <h2 class="post-date">— {{ post.date | date: "%m.%d.%Y" }}</h2>
@@ -17,22 +22,5 @@ title: Randomshouting | Amir Hadžić | a blog about programming and electronics
     </div>
 {% endfor %}
 <p>More posts can be found in the <a href="/archive.html">archive</a>.</p>
-</div>
-
-<div id="frontpage-sidebar">
-    <center><img src="http://gravatar.com/avatar/faaf4f1050b10edff7699d5e1494e6f5?size=120" /></center>
-    
-    <p>Amir Hadžić is a full time software developer by day and freelancer by night.
-    Occasionally he tries to improve his writing skills by posting on this blog.</p>
-
-    <p>Have a look at my <a href="http://ba.linkedin.com/pub/amir-had%C5%BEi%C4%87/13/a7a/3a3">linkedin</a> and <a href="http://www.github.com/amir-hadzic">github</a> profile.</p> 
-
-    <h3>Recent posts</h3>
-    <ul>
-        {% for post in site.posts limit:15 %}
-        <li><a class="nostylelink" href="{{ post.url }}">{{ post.title }} {% if post.bookreview %}(<i class="icon-book"></i>){% endif %}</a></li>
-        {% endfor %}
-    </ul>
-</div>
 
 

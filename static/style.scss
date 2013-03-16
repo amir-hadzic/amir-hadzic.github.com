@@ -84,6 +84,7 @@ pre {
     margin-bottom: 20px;
     padding: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    overflow: auto;
 }
 
 em {
@@ -119,7 +120,7 @@ h2 {
 
 #wrapper 
 {
-    width: 900px;
+    width: 600px;
     margin: 20px auto 0 auto;
     background-color: white;
 }
@@ -216,11 +217,24 @@ hr.header
     margin-bottom: 0px;
 }
 
+.post-archive-title
+{
+    @extend .post-title;
+    font-size: 1.5em;;
+    display: inline;
+}
+
 .post-date
 {
     font-size: 1em;
     color: lighten($rs_font, 25%); 
     margin: 10px 0 20px 20px; 
+}
+
+.post-archive-date
+{
+    @extend .post-date;
+    margin: 0;
 }
 
 .post
@@ -262,6 +276,12 @@ a.more{
     font-style: italic;
 }
 
+.archive-link {
+    text-decoration: none;
+    margin-bottom: 0.75em;
+    display:block;
+}
+
 #up-button
 {
     position: fixed;
@@ -294,30 +314,15 @@ a.nostylelink
     text-decoration: none;
 }
 
-#frontpage-sidebar {
-    width: 22%;
-    float: right;
-    height: 100%;
-    color: lighten($rs_font, 20%);
+#frontpage-author {
     font-size: 0.9em;
-
-    img {
-        margin-bottom: 0.5em;
-    }
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
 
     p {
         text-align: left;
     }
-
-    h3 {
-        font-size: 1.2em;
-    }
-}
-
-#frontpage-posts {
-    width: 75%;
-    float: left;
-    height: 100%;
 }
 
 .two-columns {
