@@ -179,7 +179,7 @@ hr.header {
   margin: 0; }
 
 .post {
-  padding: 0px 40px 20px 40px; }
+  padding: 0px 1em 20px 1em; }
   .post p {
     font-size: small;
     color: #111111;
