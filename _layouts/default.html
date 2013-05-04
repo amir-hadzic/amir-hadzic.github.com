@@ -10,6 +10,10 @@
 <link href='http://fonts.googleapis.com/css?family=Crushed' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
 
+{% for script in page.extra-js %}
+  <script type="text/javascript" src="{{ script }}"></script>
+{% endfor %}
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

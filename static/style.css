@@ -73,6 +73,9 @@ pre {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: auto; }
 
+code {
+  font-family: monospace; }
+
 em {
   font-style: italic; }
 
