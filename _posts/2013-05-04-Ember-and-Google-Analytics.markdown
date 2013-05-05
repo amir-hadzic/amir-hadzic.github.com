@@ -42,6 +42,7 @@ Navigator.Router.reopen({
    * Tracks pageviews if google analytics is used
    */
   didTransition: function(infos) {
+    this._super(_infos);
     if (window._gaq === undefined) { return; }
 
     Ember.run.next(function(){
@@ -78,7 +79,11 @@ You can test if this works using the GA realtime dashboard or you can use the
 and would love to hear your thoughts on this solution so please feel free to
 leave your comments. 
 
+_Update:_ Added a call to `this._super(infos)` in `didTransition()`. Thank you
+[Trek Glowacki][trek].
+
 <!-- more end -->
 
  [ga-debugger]: https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en
+ [trek]: https://github.com/trek
 
