@@ -1,9 +1,6 @@
 --- 
 layout: post 
 title: Ember and Google Analytics
-extra-js:
-  - /static/handlebars.js
-  - /static/ember.js
 ---
 
 I haven't been able to find simple and complete instructions for integrating
