@@ -5,7 +5,7 @@ title: Real programmers
 
   [0]: http://stevenbenner.com/2010/08/will-the-really-real-programmers-please-stand-up/
 
-I’v just finished reading a great post from Steven Benner and I couldn’t agree
+I’ve just finished reading a great post from Steven Benner and I couldn’t agree
 more. He sums it up in one sentence:
 
 > _Look for someone who truly understand the concepts, who can offer creative
@@ -15,7 +15,7 @@ more. He sums it up in one sentence:
 If you want to be a real programmer you need to learn, you need to constantly
 develop your skills. If you stop doing that, if you lock yourself inside your
 bubble and see no further than that, then you have a problem. Stepping into
-that magic bubble is quite easy if you are working on a team, constantly trying
+that magic bubble is quite easy if you are working in a team, constantly trying
 to meet deadlines but it’s by no means a valid justification. Again, Benner
 summed it up like this:
 
