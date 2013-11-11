@@ -42,20 +42,16 @@ more detailed description in a separate paragraph if necessary.
 
 Your commit message should look like this:
 
-    Show daily expenses on the dashboard.
+    Show daily expenses on the dashboard
 
     - Daily expenses are now grouped by category and shown on the dashboard
     - Added test that checks if the daily expenses are properly displayed
 
-Some folks say that you shouldn't use the period in the header line so you
-might want to take that advice. I personally use a period to close the header
-line but I don't think that it makes a lot of difference if you use it or not.
-The point is that the header line should summarize your changes and you should
-use the description area to add more specific details about your changes. Note
-that the header line is in imperative voice. Think of it as ordering your
-source code to change instead of admitting that you changed it (eg.  "Show
-daily expenses on the dashboard" instead of "Added a list of daily expenses on
-the dashboard"). 
+The header line should summarize your changes and you should use the
+description area to add more specific details about your changes. Note that the
+header line is in imperative voice. Think of it as ordering your source code to
+change instead of admitting that you changed it (eg.  "Show daily expenses on
+the dashboard" instead of "Added a list of daily expenses on the dashboard"). 
 
 I've used the description field to add usage instructions when building command
 line tools too since that increases the chances that a coworker will spot that
