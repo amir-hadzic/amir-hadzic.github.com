@@ -42,7 +42,7 @@ Navigator.Router.reopen({
    * Tracks pageviews if google analytics is used
    */
   didTransition: function(infos) {
-    this._super(_infos);
+    this._super(infos);
     if (window._gaq === undefined) { return; }
 
     Ember.run.next(function(){
