@@ -7,6 +7,12 @@ $rs_font: #333;
 $rs_silver: #eee;
 $rs_post_color: #111;
 
+@mixin box-shadow($top, $left, $blur, $color) {
+  -webkit-box-shadow:$top $left $blur $color;
+  -moz-box-shadow:$top $left $blur $color;
+  box-shadow:$top $left $blur $color;
+}
+
 /* <CSS RESET> from http://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -83,7 +89,7 @@ blockquote {
 pre {
     margin-bottom: 20px;
     padding: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    @include box-shadow(0, 0, 10px, rgba(0, 0, 0, .3));
     overflow: auto;
 }
 
@@ -126,8 +132,9 @@ h2 {
 #wrapper 
 {
     width: 600px;
-    margin: 20px auto 0 auto;
+    margin: 1em;
     background-color: white;
+    @include box-shadow(2px, 2px, 10px, rgb(0, 0, 0));
 }
 
 #gap
