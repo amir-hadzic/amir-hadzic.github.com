@@ -10,7 +10,6 @@ title: Randomshouting | Amir Hadžić | a blog about programming and electronics
 {% for post in site.posts limit:10%}
     <div class="post post-frontpage">
         <a class="nostylelink" href="{{ post.url }}"><h1 class="post-title">{{ post.title }} {% if post.bookreview %}(<i class="icon-book"></i>){% endif %} </h1></a>
-        <h2 class="post-date">— {{ post.date | date: "%m.%d.%Y" }}</h2>
         <span class="post-excerpt">
             {{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
         </span>

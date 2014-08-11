@@ -31,7 +31,7 @@ body {
   background-image: url(pattern.png);
   font-family: Verdana, sans-serif;
   font-size: 12px;
-  color: #333333; }
+  color: #333; }
 
 ol, ul {
   list-style: none; }
@@ -89,7 +89,7 @@ p {
   line-height: 1.5em; }
 
 a {
-  color: #94b24d; }
+  color: #94B24D; }
 
 h1, h2, h3, h4, h5, h6 {
   color: black;
@@ -138,7 +138,7 @@ h2 {
 #header h2 {
   font-family: Georgia;
   font-size: 1em;
-  color: #333333;
+  color: #333;
   margin: 0 0 0 30px; }
 
 hr.header {
@@ -158,7 +158,7 @@ hr.header {
   #navigation-bar ul {
     list-style: none; }
   #navigation-bar li a {
-    background-color: #94b24d;
+    background-color: #94B24D;
     color: white;
     padding: 0 1.5em;
     font-weight: bold;
@@ -171,10 +171,8 @@ hr.header {
   clear: both;
   overflow: auto; }
 
-.post-title, .post-archive-title {
-  margin-bottom: 0px; }
-
 .post-archive-title {
+  margin-bottom: 0.5em;
   font-size: 1.5em;
   display: inline; }
 
@@ -190,10 +188,10 @@ hr.header {
   padding: 0px 1em 20px 1em; }
   .post p {
     font-size: small;
-    color: #111111;
+    color: #111;
     margin: 0 2.5em 1.5em 2.5em; }
   .post ul li {
-    color: #111111;
+    color: #111;
     font-size: small;
     margin: 0 2.5em 1em 2.5em; }
 
@@ -262,7 +260,7 @@ a.nostylelink {
 .hireme-sidebar {
   width: 20%;
   padding: 1em;
-  background-color: #eeeeee; }
+  background-color: #eee; }
 
 div.hireme-sidebar, div.hireme-sidebar p {
   text-align: left; }
@@ -271,13 +269,15 @@ div.hireme-content, div.hireme-content p {
   text-align: left; }
 
 .projects-headline {
-  background-color: #eeeeee;
+  background-color: #eee;
   padding: 20px; }
 
 .recommended-reading {
   color: #4d4d4d;
   padding: 1.5em;
   text-align: center;
-  background-color: #eeeeee; }
+  background-color: #eee; }
   .recommended-reading p {
     margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

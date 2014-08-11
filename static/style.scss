@@ -224,14 +224,9 @@ hr.header
     overflow: auto;
 }
 
-.post-title
-{
-    margin-bottom: 0px;
-}
-
 .post-archive-title
 {
-    @extend .post-title;
+    margin-bottom: 0.5em;
     font-size: 1.5em;;
     display: inline;
 }
