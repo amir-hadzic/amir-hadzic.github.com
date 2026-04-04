@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getSortedPosts, getPostSlug } from "../lib/posts";
+
+const posts = await getSortedPosts();
+
+const postsByYear = new Map<number, typeof posts>();
+for (const post of posts) {
+  const year = post.data.date.getFullYear();
+  if (!postsByYear.has(year)) postsByYear.set(year, []);
+  postsByYear.get(year)!.push(post);
+}
+---
+
+<BaseLayout title="Archive — Amir Hadžić">
+  <h1 class="mb-10 text-2xl font-bold tracking-tight">Archive</h1>
+
+  {[...postsByYear.entries()].map(([year, yearPosts]) => (
+    <section class="mb-10">
+      <h2 class="mb-4 text-sm font-semibold text-text-muted uppercase tracking-wider">
+        {year}
+      </h2>
+      <ul class="space-y-3">
+        {yearPosts.map((post) => {
+          const date = post.data.date;
+          const formatted = date.toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+          });
+          return (
+            <li>
+              <a
+                href={`/${getPostSlug(post.id)}`}
+                class="group flex items-baseline gap-4 no-underline"
+              >
+                <time class="shrink-0 w-16 text-sm text-text-muted tabular-nums">
+                  {formatted}
+                </time>
+                <span class="text-text group-hover:text-link transition-colors">
+                  {post.data.title}
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>

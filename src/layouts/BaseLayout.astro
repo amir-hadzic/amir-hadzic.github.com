@@ -1,0 +1,87 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Writing by Amir Hadžić" } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+function isActive(path: string): boolean {
+  if (path === "/") return currentPath === "/";
+  return currentPath.startsWith(path);
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" title="Randomshouting" href="/rss.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="mx-auto max-w-2xl px-5 py-12 sm:px-8">
+      <header class="mb-16">
+        <nav class="flex items-center justify-between">
+          <a
+            href="/"
+            class="text-lg font-semibold tracking-tight text-text no-underline hover:text-text-secondary transition-colors"
+          >
+            Amir Hadžić
+          </a>
+          <div class="flex gap-6 text-sm">
+            <a
+              href="/"
+              class:list={[
+                "no-underline transition-colors",
+                isActive("/") && !currentPath.startsWith("/archive") && !currentPath.startsWith("/projects") && !currentPath.startsWith("/canvastyper")
+                  ? "text-text font-medium"
+                  : "text-text-muted hover:text-text",
+              ]}
+            >
+              Writing
+            </a>
+            <a
+              href="/archive"
+              class:list={[
+                "no-underline transition-colors",
+                isActive("/archive")
+                  ? "text-text font-medium"
+                  : "text-text-muted hover:text-text",
+              ]}
+            >
+              Archive
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer class="mt-20 border-t border-border pt-8 pb-12">
+        <div class="flex items-center justify-between text-sm text-text-muted">
+          <span>&copy; {new Date().getFullYear()} Amir Hadžić</span>
+          <div class="flex gap-5">
+            <a href="https://github.com/amir-hadzic" class="hover:text-text transition-colors no-underline">GitHub</a>
+            <a href="https://linkedin.com/in/amirhadzic" class="hover:text-text transition-colors no-underline">LinkedIn</a>
+            <a href="/rss.xml" class="hover:text-text transition-colors no-underline">RSS</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getSortedPosts, getPostSlug } from "../lib/posts";
+
+const posts = await getSortedPosts();
+---
+
+<BaseLayout title="Amir Hadžić — Writing">
+  <section class="mb-16">
+    <p class="text-text-secondary leading-relaxed max-w-lg">
+      Software engineer. I lead teams, design systems, and occasionally
+      write about things I find interesting. When I'm not at a keyboard,
+      I'm probably on a motorcycle, traveling, or having a cup of coffee.
+    </p>
+  </section>
+
+  <section>
+    <ul class="space-y-8">
+      {posts.map((post) => {
+        const date = post.data.date;
+        const formatted = date.toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+        });
+        return (
+          <li>
+            <a
+              href={`/${getPostSlug(post.id)}`}
+              class="group block no-underline"
+            >
+              <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-4">
+                <time
+                  datetime={date.toISOString()}
+                  class="shrink-0 text-sm text-text-muted tabular-nums"
+                >
+                  {formatted}
+                </time>
+                <h2 class="text-base font-medium text-text group-hover:text-link transition-colors">
+                  {post.data.title}
+                </h2>
+              </div>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+</BaseLayout>
