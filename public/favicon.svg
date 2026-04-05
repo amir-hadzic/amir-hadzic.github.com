@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    text {
+      fill: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) {
+      text {
+        fill: #e0e0e0;
+      }
+    }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="26" font-weight="700">A</text>
+</svg>
