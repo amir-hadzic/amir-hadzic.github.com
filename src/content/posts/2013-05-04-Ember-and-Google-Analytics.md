@@ -1,6 +1,8 @@
 ---
 title: Ember and Google Analytics
 date: 2013-05-04
+hidden: true
+outdated: true
 ---
 
 I haven't been able to find simple and complete instructions for integrating

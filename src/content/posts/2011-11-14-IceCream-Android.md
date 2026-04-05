@@ -1,6 +1,7 @@
 ---
 title: Android IceCream is out!
 date: 2011-11-14
+hidden: true
 ---
 
 Android IceCream source code has been finally [released](http://groups.google.com/group/android-building/msg/c0e01b4619a1455a?pli=1) into

@@ -1,6 +1,8 @@
 ---
 title: Memcache python decorators
 date: 2012-02-05
+hidden: true
+outdated: true
 ---
 
 Using memcache on google app engine was always recommended but now it's a must.

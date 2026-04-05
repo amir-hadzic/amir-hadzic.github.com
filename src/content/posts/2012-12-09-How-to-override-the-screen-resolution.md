@@ -1,6 +1,8 @@
 ---
 title: How to override the screen resolution in Arch Linux
 date: 2012-12-09
+hidden: true
+outdated: true
 ---
 
 This guide will show you how to set a custom resolution (that your monitor

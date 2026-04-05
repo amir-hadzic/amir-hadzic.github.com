@@ -4,9 +4,10 @@ import BaseLayout from "./BaseLayout.astro";
 interface Props {
   title: string;
   date: Date;
+  outdated?: boolean;
 }
 
-const { title, date } = Astro.props;
+const { title, date, outdated } = Astro.props;
 
 const formatted = date.toLocaleDateString("en-US", {
   year: "numeric",
@@ -28,6 +29,11 @@ const formatted = date.toLocaleDateString("en-US", {
         {formatted}
       </time>
     </header>
+    {outdated && (
+      <div class="mb-8 rounded border border-border bg-surface px-5 py-4 text-sm text-text-secondary font-sans">
+        <strong class="text-text">This post is outdated.</strong> It was written in {date.getFullYear()} and may contain broken links or reference technologies that no longer exist. It is kept here only for historical reasons.
+      </div>
+    )}
     <div class="prose">
       <slot />
     </div>

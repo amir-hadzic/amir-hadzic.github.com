@@ -1,6 +1,7 @@
 ---
 title: Open sourcing my blog
 date: 2011-04-10
+hidden: true
 ---
 
 I have decided to use [Jekyll](https://github.com/mojombo/jekyll) to generate the required files for my static

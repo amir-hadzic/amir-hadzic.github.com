@@ -1,6 +1,7 @@
 ---
 title: Real programmers
 date: 2010-12-14
+hidden: true
 ---
 
 I've just finished reading a great post from Steven Benner and I couldn't agree

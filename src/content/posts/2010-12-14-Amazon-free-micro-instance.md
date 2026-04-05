@@ -1,6 +1,7 @@
 ---
 title: Amazon free micro instance
 date: 2010-12-14
+hidden: true
 ---
 
 I'm currently testing the [free EC2 micro instance](http://aws.amazon.com/free/) and I'm very pleased by

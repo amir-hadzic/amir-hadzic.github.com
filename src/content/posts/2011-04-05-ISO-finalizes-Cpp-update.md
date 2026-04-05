@@ -1,6 +1,7 @@
 ---
 title: ISO finalizes C++ update
 date: 2011-04-05
+hidden: true
 ---
 
 "C++0x feels like a new language: The pieces just fit together better than they

@@ -1,6 +1,8 @@
 ---
 title: Free SMS notifications from Google
 date: 2011-02-06
+hidden: true
+outdated: true
 ---
 
 Google is known for having an API for just about everything and one of them can

@@ -49,5 +49,5 @@ my development process.
 
 <div class="recommended-reading">
     <p>If you like this article, you might enjoy this one too:
-    <a href="/2010/12/15/Advice">Advice for young programmers</a></p>
+    <a href="/2010/12/15/advice">Advice for young programmers</a></p>
 </div>

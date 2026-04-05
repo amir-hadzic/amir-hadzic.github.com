@@ -6,7 +6,7 @@ export async function GET(context: APIContext) {
   const posts = await getSortedPosts();
 
   return rss({
-    title: "Randomshouting",
+    title: "Amir Hadžić",
     description: "Amir Hadžić's personal blog",
     site: context.site!.toString(),
     items: posts.map((post) => ({

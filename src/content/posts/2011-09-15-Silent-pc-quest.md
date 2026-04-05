@@ -1,6 +1,7 @@
 ---
 title: The Quest For A Silent PC
 date: 2011-09-15
+hidden: true
 ---
 
 Lately it's been very uncomfortable to sit in front of my PC for longer periods

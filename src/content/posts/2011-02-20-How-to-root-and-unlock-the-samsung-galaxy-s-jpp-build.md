@@ -1,6 +1,8 @@
 ---
 title: "How to root & unlock the Samsung Galaxy S (JPP build)"
 date: 2011-02-20
+hidden: true
+outdated: true
 ---
 
 <img src="http://i.imgur.com/DM73W.png" align="right" style="margin-left: 10px;">

@@ -45,8 +45,7 @@ things that I noticed when other attendees were giving their pitches.
 
 My pitch went something like this:
 
-> Hello everyone, my name is Amir. I'm a software developer by day and a wannabe
-> freelancer by night and I want to help you—I want to help small businesses.
+> Hello everyone, my name is Amir. I'm a software developer and I want to help you—I want to help small businesses.
 
 > Shared workspaces are not something new. There are shared workspaces in most
 > developed countries and they are usually referred to as coworking spaces. Our

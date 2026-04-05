@@ -1,6 +1,8 @@
 ---
 title: Uedit markdown editor
 date: 2011-05-18
+hidden: true
+outdated: true
 ---
 
 _Note: Uedit is no longer actively maintained_
