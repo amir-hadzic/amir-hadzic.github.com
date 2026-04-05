@@ -1,6 +1,6 @@
 /**
  * Author: Amir Hadzic
- * Web: http://randomshouting.com
+ * Web: https://ahadzic.com
  */
 var canvasTyper = {};
 
