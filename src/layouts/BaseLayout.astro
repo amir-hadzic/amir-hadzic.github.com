@@ -4,10 +4,12 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description?: string;
+  ogType?: "website" | "article";
 }
 
-const { title, description = "Writing by Amir Hadžić" } = Astro.props;
+const { title, description = "Writing by Amir Hadžić", ogType = "website" } = Astro.props;
 const currentPath = Astro.url.pathname;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 function isActive(path: string): boolean {
   if (path === "/") return currentPath === "/";
@@ -21,6 +23,15 @@ function isActive(path: string): boolean {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="Amir Hadžić" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Randomshouting" href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
